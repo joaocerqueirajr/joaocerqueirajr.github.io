@@ -1,0 +1,90 @@
+img.img-fluid {
+	width: 100%;
+	height: 657px;
+}
+
+#texto {
+	position: absolute;
+	margin-top: -480px;
+	background-color: rgba(0,0,0,0.8);
+}
+
+@font-face {
+	font-family: Abbey;
+	src: url('Abbey.ttf')
+}
+
+/* div.container { */
+	/* background-color: black; */
+	/* opacity: 0.4; */
+/* } */
+
+img.img {
+	border-radius: 135px;
+	margin-left: 157px;
+    margin-right: auto;
+    width: 17em;
+}
+
+h5.mt-4 {
+	/* font-family: Abbey; */
+	/* font-family: 'PT Sans Narrow', sans-serif; */
+	/* font-family: 'Amatic SC', cursive; */
+	/* font-family: 'Comfortaa', cursive; */
+	/* font-family: 'Playfair Display SC', serif; */
+	/* font-family: 'Sigmar One', cursive; */
+	/* font-family: 'Neucha', cursive; */
+	font-family: 'Amaranth', sans-serif;
+	color: white;
+	font-weight: 550;
+	font-size: 40px;
+	/* text-shadow: 0.1em 0.1em 0.1em #0BBC22; */
+}
+
+
+h5.desc1 {
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+	/* text-shadow: 0.0em 0.5em 0.01em black; */
+	margin-left: 20px;
+    margin-right: auto;
+}
+
+h5.desc2 {
+	font-family: 'Ubuntu', sans-serif;
+	color: #0A5BAD;
+	font-weight: bold;
+	font-size: 17px;
+	text-shadow: 0.0em 0.5em 0.01em black;
+	margin-left: 15px;
+    margin-right: auto;
+}
+
+li {
+	list-style: none;
+	margin: 20px 14px;
+	display: inline-block;
+	font-size: 23px;
+	padding: 5px 15px;
+	border-radius: 45%;
+}
+
+
+li #social {
+	color: #fff;
+	transition: .5s;
+}
+
+li #social:hover {
+	color: #0A5BAD;
+	transition: .5s;
+}
+
+ul.social {
+	position:absolute;
+	top: 81%;
+	left: 60%;
+	transform: translate(-53%,-50%);
+}
