@@ -3,10 +3,19 @@
 	#header {
 		height: auto;
 	}
-	h1 {
+	
+	h5.mt-4 {
 		font-size: 24px;
 	}
-	#sidebar {
+	
+	h5.desc1 {
+		font-size: 24px;
+	}
+	
+	h5.desc2 {
+		font-size: 24px;
+	
+	div.media-body {
 		display: none;
 	}
 
