@@ -1,1 +1,0 @@
-# joaocerqueirajr.github.io
