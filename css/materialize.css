@@ -3458,6 +3458,11 @@ table span.badge {
   padding: 0;
 }
 
+@media only screen and (max-width: 980px){
+        .left-sidebar { display: none; }
+		
+	}
+
 .section.no-pad-bot {
   padding-bottom: 0;
 }

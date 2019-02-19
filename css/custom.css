@@ -1,8 +1,3 @@
-@media only screen and (max-width: 980px){
-        .left-sidebar { display: none; }
-    }
-	
-
 #perfil{
   width: 270px;
   border-radius: 50%;
@@ -127,7 +122,7 @@ p#citacao{
 }
 
 
-@-webkit-keyframes #icons
+@-webkit-keyframes #icons-cima
 {
     15%
     {
@@ -194,11 +189,140 @@ p#citacao{
     }
 }
 
-#icons:hover
+#icons-cima:hover
 {
         -webkit-animation: swing 1s ease;
         animation: swing 1s ease;
         -webkit-animation-iteration-count: 1;
         animation-iteration-count: 1;
 }
+
+#icons-baixo:hover
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
 }
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+ 
+ 
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+   
+   #header{
+	  margin: 10px 10px 100px 35px;
+	  height:450px;
+}
+   
+   div.icon-block{
+	    height:20em;
+		margin: -2.5em 5px 50px 17.5px;
+    }
+   
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 780px) and (max-width: 767px) {
+
+  /* #header{ */
+	  /* margin: 20px 10px 100px 35px; */
+	  /* height:450px; */
+/* } */
+   
+   /* div.icon-block{ */
+	    /* height:20em; */
+		/* margin: -2.5em 5px 50px 17.5px; */
+    /* } */
+   
+
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 767px) {
+    h1{
+        font-size:30px;	
+        margin-bottom:0.2em;
+		margin-top:29%;
+		
+    }
+	
+	i#icons-cima{
+		
+		line-height:4em;
+		font-size:35px;
+		
+	}
+	
+	i#icons-baixo{
+		line-height:3em;
+		font-size:35px;
+	}
+	
+	p#citacao{
+		font-size:22px;
+	}
+	
+	div.icon-block{
+	    height:20em;
+		margin: -9em 5px 50px 17.5px;
+    }
+	
+	#header{
+	    margin: 40px 5px 50px 17.5px;
+		
+    }
+	
+    #perfil{
+		width: 180px;
+		border-radius: 50%;
+	}
+	
+	h4#font-header{
+		font-family: 'Titillium Web', sans-serif;
+		font-size:28px;
+}
+
+    h6#font-header{
+		font-size:18px;
+		padding:0.01em;
+		text-shadow: 0.2em 0.2em 2.0em black;
+		color:white;
+		font-weight:500px;
+    }
+	
+	#index-banner{
+	height: 33em;
+}
+
+	#div-container{
+		text-align: center;
+	}
+	
+	#titulo{
+		font-size:25px;
+	}
+	
+	#texto {
+		font-size:17px;		
+	}
+}
+
+@media only screen and (max-width: 767px){
+        .left-sidebar { display: none; }
+		#img { width:60em;}
+		
+	}
+	
+	    
